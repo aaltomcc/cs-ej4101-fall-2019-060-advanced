@@ -2,7 +2,7 @@ language: hugo
 hugo:
   - "stable"
 script:
-  - hubo
+  - hugo
 deploy:
   provider: pages
   skip_cleanup: true
